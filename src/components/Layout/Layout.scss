@@ -1,0 +1,33 @@
+.header {
+  font-family: "Baloo 2", cursive;
+  &__navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #f0b781;
+    position: fixed;
+    width: 100%;
+    padding: 20px 15px;
+    &_links {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      &_item {
+        margin-right: 20px;
+        a {
+          color: #000000;
+          text-transform: uppercase;
+        }
+      }
+    }
+    &_logo {
+      width: 64px;
+      height: 64px;
+    }
+  }
+}
+
+.main {
+  width: 1440px;
+  padding-top: 104px;
+  margin: auto;
+}

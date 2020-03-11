@@ -1,0 +1,30 @@
+.exhibition-list {
+  margin: 40px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__item {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
+    width: 45%;
+    border-radius: 15px;
+    cursor: pointer;
+    &_picture {
+      width: 440px;
+      height: 350px;
+      border-radius: 15px 0 0 15px;
+    }
+    &_info {
+      background-color: #fff;
+      border-radius: 0 15px 15px 0;
+      text-align: center;
+      &_text {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 15px 10px;
+        cursor: text;
+      }
+    }
+  }
+}
